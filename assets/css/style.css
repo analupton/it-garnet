@@ -1,0 +1,23 @@
+/*-----Couse Homepage Stylesheet------*/
+body{
+    background-color: lightpink;
+}
+
+/* Id Selector */
+
+#main-heading{
+    color:aquamarine; 
+}
+
+/* Class Selector */
+
+.primary{
+    border: 2px solid 
+    padding: 10px
+}
+
+/* -- psuedo selector ---*/
+
+a:link{
+    color:beige; 
+}
