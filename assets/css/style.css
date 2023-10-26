@@ -6,14 +6,15 @@ body{
 /* Id Selector */
 
 #main-heading{
-    color:aquamarine; 
+    color:blanchedalmond; 
+    text-align: center;
 }
 
 /* Class Selector */
 
 .primary{
-    border: 2px solid 
-    padding: 10px
+    border: 2px solid;
+    padding: 10px;
 }
 
 /* -- psuedo selector ---*/
