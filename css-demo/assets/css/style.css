@@ -1,9 +1,9 @@
 /* Color Theme Swatches in Hex 
-#39ADE6
-#AC4BB2
-#FFB0E3
-#46CEE0
-#CF549B
+#FBE2EB
+#FCCCDA
+#FCB0C7
+#F9628F
+#F83A73
 */
 
 /* ---------------Box Sizing----------------- */
@@ -16,16 +16,23 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+  /* ---------------Utility Classes----------------- */
+
+  .container{
+    margin: auto;
+    padding: 40px;
+  }
   
   /* ---------------Global Styles----------------- */
   
   body {
     font-family: 'Playfair Display', serif;
-    background-color: #FFB0E3;
+    background-color: #FCCCDA;
   }
 
   main{ 
-    background-color: whitesmoke;
+    background-color: #FCB0C7;
     width:80vw;
     margin-top:40px;
     margin-right:auto;
@@ -37,6 +44,67 @@ html {
 
     /* 2 Value Shorthand T/B, L/R*/
     margin: 40px auto;
-    border: 2px solid #CF549B; 
+    border: 2px solid #F9628F; 
     border-radius: 4px;
+  }
+  
+    header.primary { 
+    background-color:#EDBFB7; 
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/839/386/original/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg);
+    /* local path 
+      background-image: url("../img/bg_1.png")
+    */
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    border-bottom:3px solid solid:#665258 
+  }
+  header.primary .hgroup {
+      width: 70%;
+  }
+  header.primary .hgroup h1 a{
+    color:white; 
+    text-decoration: none;
+    text-shadow: 1px 1px #F9628F;
+    font-size: 2.4rem;
+  }
+  header.primary .hgroup h2{
+    color:white;
+    text-shadow:1px 1px #F9628F;
+    font-size:1.8em;
+  }
+
+  header.primary nav{
+    width: 30%;
+    margin: 0;
+  }
+
+  header.primary nav ul{
+    list-style-type: none;
+    margin: 5px;
+  }
+
+  header.primary nav ul li{
+    margin-bottom: 10px;
+  }
+
+  header.primary nav a{
+    color:#F83A73;
+    text-decoration: none;
+    background-color: #FCCCDA;
+    display:block;
+    padding: 5px;
+    border-radius: 10px 0;
+    border: 5px soild #F83A73; 
+    text-align: rigth;
+  }
+
+  #content h2, #content h3{
+    color:#FBE2EB ;
+    border-left: 7.5px solid #F83A73;
+    border-radius: 20px 0;
+    padding: 7.5px ;
   }
