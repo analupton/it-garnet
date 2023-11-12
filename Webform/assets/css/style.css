@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+form {
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+}
