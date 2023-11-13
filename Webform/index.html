@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <main>
     <form id="Webform" action="https://brucebauer.info/assets/ITEC3650/datadump.php">
     <h1>New Patient Registration</h1>
     <p>Please fill out the form below</p>
@@ -49,6 +50,8 @@ maxlength="3"><br>
 <label for="Weight">Weight (pounds):</label>
 <input type="text" id="Weight" name="Weight" size="1"
 maxlength="1"><br>
+
+<hr  />
 
 <label for="PhoneNumber">Phone Number:</label>
 <input type="text" id="PhoneNumber" name="PhoneNumber" size="14"
@@ -126,7 +129,9 @@ maxlength="30">
 	<option value="WY">Wyoming</option>
 </select>
 <input type="text" id="Zip" name="Zip" size="5"
-maxlength="5">
+maxlength="5"><br>
+
+<hr />
 
 <label for: TakingMedications>Taking Medications:</label>
 <input type="radio" id="Yes" name="Medications" value="Y">
@@ -134,8 +139,14 @@ maxlength="5">
 <input type="radio" id="N" name="Medications" vaule="N">
 <label for= "No">No</label><br>
 
+<label for: MedicationsList>If yes, list medications here:</label>
+<textarea name="MedicationsList" rows="3" cols="30">
+</textarea><br>
+
+<hr />
   <input type="submit" value="Submit patient form" name="Submitpatientform">
 
   </form>
+  </main>
 </body>
 </html>

@@ -1,15 +1,24 @@
 html {
     box-sizing: border-box;
   }
-  *,
+  *
   *:before,
   *:after {
     box-sizing: inherit;
   }
-  
-form {
-    font-weight: bold;
+
+form{
     display: inline-block;
+    width: 650px;
     text-align: left;
-    width: 600px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+.formlabel{
+  text-align: right;
 }
