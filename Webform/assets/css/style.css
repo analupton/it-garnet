@@ -7,18 +7,18 @@ html {
     box-sizing: inherit;
   }
 
-form{
-    display: inline-block;
-    width: 650px;
-    text-align: left;
-    padding: 5px;
-    font-weight: bold;
-}
 
 input {
     margin-bottom: 5px;
 }
 
-.formlabel{
-  text-align: right;
+form {
+  display: inline-block;
+  padding: 5px;
+  font-weight: bold;
+  width: auto;
+  text-align: left;
+}
+#MaritalStatus label{
+  margin-bottom: 5px;
 }
