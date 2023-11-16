@@ -1,11 +1,13 @@
-input {
-    margin-bottom: 5px;
-}
 
-form {
+.formlabel {
   display: inline-block;
   padding: 5px;
   font-weight: bold;
-  width: 650px;
-  text-align: left;
+  width: 150px;
+  text-align: right;
+}
+
+.error{
+  color:red;
+  padding-left: 5px;
 }
