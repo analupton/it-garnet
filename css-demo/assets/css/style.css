@@ -23,6 +23,14 @@ html {
     margin: auto;
     padding: 40px;
   }
+
+  /* ---------------Responsive Images----------------- */
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
   
   /* ---------------Global Styles----------------- */
   
@@ -60,8 +68,9 @@ html {
     display: flex;
     flex-direction:row;
     justify-content:flex-start;
-    border-bottom:3px solid solid:#665258 
-  }
+    border-bottom:3px solid solid; 
+    }
+
   header.primary .hgroup {
       width: 70%;
   }
@@ -92,9 +101,9 @@ html {
   }
 
   header.primary nav a{
-    color:#F83A73;
+    color:#FCCCDA;
     text-decoration: none;
-    background-color: #FCCCDA;
+    background-color: #F83A73;
     display:block;
     padding: 5px;
     border-radius: 10px 0;
@@ -102,9 +111,70 @@ html {
     text-align: rigth;
   }
 
-  #content h2, #content h3{
+  #content h2, #content h3, .widget h2 {
     color:#FBE2EB ;
     border-left: 7.5px solid #F83A73;
     border-radius: 20px 0;
     padding: 7.5px ;
   }
+
+  #blog {
+    background-color:#FBE2EB;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fpink-background&psig=AOvVaw12f63yTSzaAMj7ujJOiAQD&ust=1700242587885000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCOiLk66HyYIDFQAAAAAdAAAAABAE);
+    padding:20px 0;
+    border-top:6px double #F83A73;
+    border-bottom:6px double #F83A73;
+  }
+
+  #blog  > h2{
+    color:#ffffff;
+    text-shadow:2px 2px #F83A73;
+    font-size: 2.2rem;
+    margin-left: 20px;
+  }
+
+  article.post{ 
+    background-color: #F83A73;
+    margin: 20px;
+    padding: 20px;
+    display:grid;
+    grid-template-columns:1fr 3fr; 
+    grid-template-areas: 
+    "figure header"
+    "figure post-content"
+    "figure footer";
+    grid-gap:20px;
+  }
+article.post figure{
+  grid-area: figure;
+}
+article.post header{
+  grid-area: header;
+}
+article.post .post-content{
+  grid-area: post-content;
+}
+article.post .post-meta{
+  grid-area: footer;
+}
+
+aside .container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:20px;
+}
+
+aside .widget:first-of-type{
+  border-right:1px dotted #F83A73;
+  padding-right:20px;
+}
+
+#colophon{
+  text-align: center;
+  background-color: #FCB0C7;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/010/839/386/original/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:20px;
+  color:#F83A73;
+}
