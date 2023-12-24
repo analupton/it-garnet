@@ -37,6 +37,9 @@ img{
   body {
     font-family: 'Playfair Display', serif;
     background-color: #FCCCDA;
+    background-image: url(https://i.pinimg.com/originals/6f/3d/48/6f3d48716f25610df2f6d968aabd4d4f.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   main{ 
@@ -117,6 +120,9 @@ img{
     border-radius: 20px 0;
     padding: 7.5px ;
   }
+  section.container p{
+    color: #ffffff;
+  }
 
   #blog {
     background-color:#FBE2EB;
@@ -134,7 +140,7 @@ img{
 
   article.post{ 
     background-color: ;
-    background-image: url(https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/839/386/original/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg);
     margin: 20px;
     padding: 20px;
     display:grid;
@@ -177,6 +183,10 @@ aside .widget:first-of-type{
   padding-right:20px;
 }
 
+footer.post-meta a{
+  color:#F83A73
+}
+
 #colophon{
   text-align: center;
   background-color: #FCB0C7;
@@ -185,4 +195,12 @@ aside .widget:first-of-type{
   background-repeat: no-repeat;
   padding:20px;
   color:#F83A73;
+}
+
+article.widget a{
+  color:#F83A73
+}
+
+article.widget p{
+  color:#ffffff
 }
