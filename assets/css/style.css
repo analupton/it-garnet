@@ -1,20 +1,22 @@
 /*-----Couse Homepage Stylesheet------*/
 body{
     background-color: lightpink;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/839/386/original/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg);
 }
 
 /* Id Selector */
 
 #main-heading{
-    color:blanchedalmond; 
+    color:#e1a0b3;
     text-align: center;
 }
 
 /* Class Selector */
 
 .primary{
-    border: 2px solid;
-    padding: 10px;
+    border: 10px solid;
+    padding: 20px;
+    color: #e1a0b3;
 }
 
 /* -- psuedo selector ---*/
