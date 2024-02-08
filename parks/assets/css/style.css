@@ -1,0 +1,202 @@
+html {
+    box-sizing: border-box;
+  }
+  *
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+    /* ---------------Utility Classes----------------- */
+  
+    .container{
+      margin: auto;
+      padding: 40px;
+    }
+  
+    /* ---------------Responsive Images----------------- */
+  
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  
+    
+    /* ---------------Global Styles----------------- */
+    
+    body {
+      font-family: 'Kalam', cursive;
+      background-color: #5c5b3d;
+      background-size:cover;
+      background-repeat: no-repeat;
+    }
+  
+    main{ 
+      background-color: #007f61;
+      width:80vw;
+      margin-top:40px;
+      margin-right:auto;
+      margin-bottom:40px;
+      margin-left:auto;  
+  
+      /* 4 Value Shorthand T, R, B, L*/
+      margin: 40px auto 40px auto; 
+  
+      /* 2 Value Shorthand T/B, L/R*/
+      margin: 40px auto;
+      border: 2px solid white; 
+      border-radius: 4px;
+    }
+    
+      header.primary { 
+      background-color:#fdb728; 
+      background-image: url(https://npr.brightspotcdn.com/dims4/default/66276ae/2147483647/strip/true/crop/800x420+0+40/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkuar%2Ffiles%2F201510%2FIMG_2200_0.jpg);
+      /* local path 
+        background-image: url("../img/bg_1.png")
+      */
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
+      display: flex;
+      flex-direction:row;
+      justify-content:flex-start;
+      border-bottom:3px solid solid; 
+      }
+  
+    header.primary .hgroup {
+        width: 70%;
+    }
+    header.primary .hgroup h1 a{
+      color:white;
+      text-shadow: 1px 1px #5c5b3d;
+      font-size: 2.4rem;
+    }
+    header.primary .hgroup h2{
+      color:white;
+      text-shadow:1px 1px #5c5b3d;
+      font-size:1.8em;
+    }
+  
+    header.primary nav{
+      width: 30%;
+      margin: 0;
+    }
+  
+    header.primary nav ul{
+      list-style-type: none;
+      margin: 5px;
+    }
+  
+    header.primary nav ul li{
+      margin-bottom: 10px;
+    }
+  
+    header.primary nav a{
+      color:#fdb728;
+      text-decoration: none;
+      background-color: #007f61;
+      display:block;
+      padding: 5px;
+      border-radius: 10px 0;
+      border: 5px soild #5c5b3d; 
+      text-align: rigth;
+    }
+  
+    #content h2, #content h3, .widget h2 {
+      color:#fdb728 ;
+      border-left: 7.5px solid #5c5b3d;
+      border-radius: 20px 0;
+      padding: 7.5px ;
+    }
+    section.container p{
+      color: #ffffff;
+    }
+
+    #logo {
+      width: 200px;
+      height: 300px;
+    }
+  
+    #blog {
+      background-color:#fdb728;
+      padding:20px 0;
+      border-top:6px double #007f61;
+      border-bottom:6px double #007f61;
+    }
+  
+    #blog  > h2{
+      color:#ffffff;
+      text-shadow:2px 2px #007f61;
+      font-size: 2.2rem;
+      margin-left: 20px;
+    }
+  
+    article.post{ 
+      background-image: url();
+      margin: 20px;
+      padding: 20px;
+      display:grid;
+      grid-template-columns:1fr 3fr; 
+      grid-template-areas: 
+      "figure header"
+      "figure post-content"
+      "figure footer";
+      grid-gap:20px;
+    }
+  article.post figure{
+    grid-area: figure;
+  }
+  article.post header{
+    grid-area: header;
+    color: #007f61;
+  }
+  
+  article.post header h2 a {
+    color: #007f61;
+    text-decoration: none;
+  }
+  
+  article.post .post-content{
+    grid-area: post-content;
+    
+  }
+  article.post .post-meta{
+    grid-area: footer;
+  }
+  
+  aside .container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+  }
+  
+  aside .widget:first-of-type{
+    border-right:1px dotted #007f61;
+    padding-right:20px;
+  }
+  
+  footer.post-meta a{
+    color:#fdb728
+  }
+
+  footer.parkend h4, h6{
+    color: #fdb728;
+  }
+  
+  #colophon {
+    text-align: center;
+    background-color: #5c5b3d;
+    background-image: url(https://npr.brightspotcdn.com/dims4/default/66276ae/2147483647/strip/true/crop/800x420+0+40/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkuar%2Ffiles%2F201510%2FIMG_2200_0.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:20px;
+    color:#007f61;
+  }
+  
+  article.widget a{
+    color:#007f61
+  }
+  
+  article.widget p{
+    color:#ffffff
+  }
