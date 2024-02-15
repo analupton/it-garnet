@@ -1,11 +1,10 @@
 html {
-    box-sizing: border-box;
-  }
-  *
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*
+*:before,
+*:after {
+}
   
     /* ---------------Utility Classes----------------- */
   
@@ -18,7 +17,7 @@ html {
   
   img{
     max-width:100%;
-    height:auto;
+    height:auto; 
   }
   
     
@@ -26,7 +25,8 @@ html {
     
     body {
       font-family: 'Kalam', cursive;
-      background-color: #5c5b3d;
+      font-size: larger;
+      background-color: white;
       background-size:cover;
       background-repeat: no-repeat;
     }
@@ -44,7 +44,7 @@ html {
   
       /* 2 Value Shorthand T/B, L/R*/
       margin: 40px auto;
-      border: 2px solid white; 
+      border: 2px solid #5c5b3d; 
       border-radius: 4px;
     }
     
@@ -194,9 +194,18 @@ html {
   }
   
   article.widget a{
-    color:#007f61
+    color:#fdb728
   }
   
-  article.widget p{
+  article.widget {
     color:#ffffff
+  }
+
+  article.widget img{
+    width: 400px;
+    height: 400px;
+  }
+
+  article.post img{
+    border: 5px solid white;
   }
