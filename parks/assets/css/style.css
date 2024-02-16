@@ -163,6 +163,19 @@ html {
   article.post .post-meta{
     grid-area: footer;
   }
+
+  article.trails {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  article.trails h4 {
+    color: #ffffff;
+  }
+
+  article.trails header h2 a {
+    color: #007f61;
+  }
   
   aside .container{
     display:grid;
