@@ -76,9 +76,6 @@ function clearform() {
     document.getElementById("Value").value = "";
     document.getElementById("FromUnit").value = "";
     document.getElementById("ToUnit").value = "";
-    document.getElementById("ValueError").innerHTML = "";
-    document.getElementById("FromError").innerHTML = "";
-    document.getElementById("ToError").innerHTML = "";
     document.getElementById("fromcentimeters").checked = false;
     document.getElementById("frommeters").checked = false;
     document.getElementById("fromkilos").checked = false;
@@ -93,9 +90,7 @@ function clearform() {
     document.getElementById("tofeet").checked = false;
     document.getElementById("toyards").checked = false;
     document.getElementById("tomiles").checked = false;
-    document.getElementById("FromError").innerHTML = "";
-    document.getElementById("ToError").innerHTML = "";
-    document.getElementById("ToValue").innerHTML = "";
+    document.getElementById("Result").innerHTML = "";
 }
 
 
