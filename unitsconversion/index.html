@@ -16,14 +16,12 @@
       <fieldset>
         <legend>Unit Calculator (AJAX)</legend>
 
-
         <label for="FromValue">From Value: </label>
         <input type="text" id="FromValue" name="FromValue" size="15" maxlength="15"
           data-rule-required="true" data-msg-required="Value is Required"
           data-rule-number="true" data-msg-number="Value must be a number" />
-        <label for="FromValue" class="error"></label>
+        <label for="FromValue" class="error" id="FromValueMsg"></label>
         <br><br>
-
 
         <label for="FromUnit"> From Unit: </label>
         <label for="fromcentimeters">
@@ -31,24 +29,20 @@
         data-rule-required="true" data-msg-required="From Unit is Required"/>centimeters
         </label>
 
-
         <label for="frommeters">
         <input type="radio" id="frommeters" name="FromUnit" value="m"
         data-rule-required="true" data-msg-required="From Unit is Required"/>meters
         </label>
-
 
         <label for="fromkilometers">
         <input type="radio" id="fromkilometers" name="FromUnit" value="km"
          data-rule-required="true" data-msg-required="From Unit is Required"/>kilometers
          </label>
 
-
         <label for="frominches">
         <input type="radio" id="frominches" name="FromUnit" value="in"
         data-rule-required="true" data-msg-required="From Unit is Required"/>inches
         </label>
-
 
         <label for="fromfeet">
         <input type="radio" id="fromfeet" name="FromUnit" value="ft"
@@ -65,10 +59,8 @@
         data-rule-required="true" data-msg-required="From Unit is Required"/>miles
         </label>
 
-
-        <label for="FromUnit" class="error"></label>
+        <label for="FromUnit" class="error" id="FromUnitMsg"></label>
         <br><br>
-
 
         <label for="ToUnit"> To Unit: </label>
         <label for="tocentimeters">
@@ -76,24 +68,20 @@
         data-rule-required="true" data-msg-required="To Unit is Required"/>centimeters
         </label>
 
-
         <label for="tometers">
         <input type="radio" id="tometers" name="ToUnit" value="m"
         data-rule-required="true" data-msg-required="To Unit is Required"/>meters
         </label>
-
 
         <label for="tokilometers">
         <input type="radio" id="tokilometers" name="ToUnit" value="km"
          data-rule-required="true" data-msg-required="To Unit is Required"/>kilometers
          </label>
 
-
         <label for="toinches">
         <input type="radio" id="toinches" name="ToUnit" value="in"
         data-rule-required="true" data-msg-required="To Unit is Required"/>inches
         </label>
-
 
         <label for="tofeet">
         <input type="radio" id="tofeet" name="ToUnit" value="ft"
@@ -110,24 +98,17 @@
         data-rule-required="true" data-msg-required="To Unit is Required"/>miles
         </label>
 
-
-        <label for="ToUnit" class="error"></label>
+        <label for="ToUnit" class="error" id="ToUnitMsg"></label>
         <br><br>
-
 
         <p>To Value: <span id="ToValue"></span></p>
 
-
-        <input type="submit" value="Calculate"  name="Calculate"  onclick="calculate()" />
-        <input type="submit" value="Clear" name="Clear" onclick="clearForm()" />
+        <input type="submit" value="submit"  name="Calculate" onclick="calculate();" >
+        <input type="reset" value="Clear" name="Clear" onclick="clearForm();">
 
 
       </fieldset>
-      <br />
     </form>
     <script src="assets/script/unit.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-  </body>
+    </body>
 </html>

@@ -1,4 +1,5 @@
 function calculate() {
+    "use strict";
     
 
     if ($( "#unitcalculator" ).valid()) {
@@ -66,15 +67,19 @@ function calculate() {
             let myCalcObject = await fetch(myURL);
             let myResult = await myCalcObject.text();
             
-            document.getElementById("Result").innerHTML = myResult;
+            document.getElementById("ToValue").innerHTML = myResult;
   
         }
     }
 
 function clearform() {
+    "use strict"; 
     
-  
     document.getElementById("FromValue").value = "";
+    document.getElementById("FromValueMsg").innerHTML = "";
+    document.getElementById("FromUnitMsg").innerHTML = "";
+    document.getElementById("ToUntiMsg").innerHTML = "";
+    document.getElementById("tovalue").innerHTML = "";
     document.getElementById("fromcentimeters").checked = false;
     document.getElementById("frommeters").checked = false;
     document.getElementById("fromkilos").checked = false;
@@ -89,7 +94,6 @@ function clearform() {
     document.getElementById("tofeet").checked = false;
     document.getElementById("toyards").checked = false;
     document.getElementById("tomiles").checked = false;
-    document.getElementById("ToValue").innerHTML = "";
 }
 
 
