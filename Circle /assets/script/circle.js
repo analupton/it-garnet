@@ -2,18 +2,18 @@ $("#CircleForm").validate();
 
  function displayCircleCalculations() {
     if ($("#CircleForm").valid()) {
-        document.getElementById("diameter").innerHTML = "";
-        document.getElementById("area").innerHTML = "";
-        document.getElementById("circumference").innerHTML = "";
+        document.getElementById("diameter").innerText = "";
+        document.getElementById("area").innerText = "";
+        document.getElementById("circumference").innerText = "";
 
         var radius = parseFloat(document.getElementById("radius").value);
         var diameter = calcDiameter(radius);
         var area = calcArea(radius);
         var circumference = calcCircumference(radius);
 
-       document.getElementById("diameter").innerHTML = diameter.toString();
-       document.getElementById("area").innerHTML = area.toString();
-       document.getElementById("circumference").innerHTML = circumference.toString();
+       document.getElementById("diameter").innerText = diameter.toString();
+       document.getElementById("area").innerText = area.toString();
+       document.getElementById("circumference").innerText = circumference.toString();
 
     } 
 } 
@@ -31,10 +31,11 @@ function calcCircumference(radius) {
 
 }
 
-function clearCircleForm() {
+function clearForm() {
     document.getElementById("radius").value = "";
-    document.getElementById("radiusError").innerHTML = "";
-    document.getElementById("diameter").innerHTML = "";
-    document.getElementById("area").innerHTML = "";
-    document.getElementsById("circumference").innerHTML = "";
+    document.getElementById("radiuserror").innerText = "";
+    document.getElementById("diameter").innerText = "";
+    document.getElementById("circumference").innerText= "";
+    document.getElementById("area").innerText = "";
+   
 }

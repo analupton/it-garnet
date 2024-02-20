@@ -66,7 +66,7 @@ function calculate() {
             let myCalcObject = await fetch(myURL);
             let myResult = await myCalcObject.text();
             
-            document.getElementById("Result").innerHTML = myResult;
+            document.getElementById("result").innerText = myResult;
   
         }
     }
@@ -90,7 +90,7 @@ function clearform() {
     document.getElementById("tofeet").checked = false;
     document.getElementById("toyards").checked = false;
     document.getElementById("tomiles").checked = false;
-    document.getElementById("Result").innerHTML = "";
+    document.getElementById("result").innerText = "";
 }
 
 
