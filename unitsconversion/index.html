@@ -26,37 +26,37 @@
               <br><br>
   
               <label class="FromUnit" for="From">From Unit: </label>
-              <label for="Centimeters">
+              <label for="fromcentimeters">
                   <input type="radio" name="From" id="fromcentimeters" value="cm"
                   data-rule-required="true" data-msg-required="From Unit is Required"/>centimeters
               </label>
 
-                  <label for="Meter">
+                  <label for="frometer">
                   <input type="radio" name="From" id="frommeters" value="m"
                   data-rule-required="true" data-msg-required="From Unit is Required">meters
               </label>
 
-                  <label for="Kilo">
+                  <label for="fromkilo">
                   <input type="radio" name="From" id="fromkilos" value="km"
                   data-rule-required="true" data-msg-required="From Unit is Required">kilometers
               </label>
 
-                  <label for="Inch">
+                  <label for="frominch">
                   <input type="radio" name="From" id="frominches" value="in"
                   data-rule-required="true" data-msg-required="From Unit is Required">inches
               </label>
 
-                  <label for="Feet">
+                  <label for="fromfeet">
                   <input type="radio" name="From" id="fromfeet" value="ft"
                   data-rule-required="true" data-msg-required="From Unit is Required">feet
               </label>
 
-                  <label for="Yard">
+                  <label for="fromyards">
                   <input type="radio" name="From" id="fromyards" value="yd"
                   data-rule-required="true" data-msg-required="From Unit is Required">yards
               </label>
 
-                  <label for="Mile">
+                  <label for="frommiles">
                   <input type="radio" name="From" id="frommiles" value="mi"
                   data-rule-required="true" data-msg-required="From Unit is Required">miles
               </label>
@@ -65,31 +65,31 @@
               <br><br>
   
               <label class="ToUnit">To Unit: </label>
-                  <label for="Centimeters">
+                  <label for="tocentimeters">
                   <input type="radio" name="To" id="tocentimeters" value="cm"
                   data-rule-required="true" data-msg-required="To Unit is Required"/>centimeters
               </label>
-                  <label for="Meter">
+                  <label for="tometer">
                   <input type="radio" name="To" id="tometers" value="m"
                   data-rule-required="true" data-msg-required="To Unit is Required">meters
               </label>
-                  <label for="Kilo">
+                  <label for="tokilo">
                   <input type="radio" name="To" id="tokilos" value="km"
                   data-rule-required="true" data-msg-required="To Unit is Required">kilometers
               </label>
-                  <label for="Inch">
+                  <label for="toinches">
                   <input type="radio" name="To" id="toinches" value="in"
                   data-rule-required="true" data-msg-required="To Unit is Required">inches
               </label>
-                  <label for="Feet">
+                  <label for="tofeet">
                   <input type="radio" name="To" id="tofeet" value="ft"
                   data-rule-required="true" data-msg-required="To Unit is Required" >feet
               </label>
-                  <label for="Yard">
+                  <label for="toyards">
                   <input type="radio" name="To" id="toyards" value="yd"
                   data-rule-required="true" data-msg-required="To Unit is Required" >yards
               </label>
-                  <label for="Mile">
+                  <label for="tomeiles">
                   <input type="radio" name="To" id="tomiles" value="mi"
                   data-rule-required="true" data-msg-required="To Unit is Required">miles
               </label>
@@ -99,8 +99,8 @@
                 <p>To Value: <span id="result"></span></p>
                 </div>
   
-              <input type="button" value="Calculate" name="Calculate" onclick="calculate();">
-              <input type="reset" value="Clear" name="Clear" onclick="clearform();" formnovalidate>
+                <input type="button" value="Calculate"  name="Calculate"  onclick="calculate();">
+                <input type="button" value="Clear" name="Clear" onclick="clearForm();"novalidate >
   
           </fieldset>
       </div>
