@@ -76,6 +76,7 @@ function clearform() {
     document.getElementById("Value").value = "";
     document.getElementById("FromUnit").value = "";
     document.getElementById("ToUnit").value = "";
+    document.getElementById("ToError").innerText = "";
     document.getElementById("fromcentimeters").checked = false;
     document.getElementById("frommeters").checked = false;
     document.getElementById("fromkilos").checked = false;
