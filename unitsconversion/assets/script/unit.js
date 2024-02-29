@@ -88,7 +88,7 @@ function clearForm() {
     document.getElementById("tofeet").checked = false;
     document.getElementById("toyards").checked = false;
     document.getElementById("tomiles").checked = false;
-    document.getElementById("result").innerText = "";
+    document.getElementById("result").innerText = ""
 }
 
 
