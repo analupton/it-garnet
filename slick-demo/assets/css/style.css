@@ -1,5 +1,5 @@
 body{
-    background-color:darkgray;
+    background-color: rgb(180, 137, 209);
 }
 
 img{
@@ -33,4 +33,15 @@ img{
 .slick-autoplay-toggle-button:focus 
 {
     color:black;
+}
+
+.slide{
+    position: relative;
+}
+
+.overlay{
+    position:absolute;
+    bottom: 50px;
+    left: 250px;
+    color: aliceblue;
 }

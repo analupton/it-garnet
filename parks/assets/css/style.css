@@ -37,15 +37,16 @@ html {
     
       header.primary { 
       background-color:#fdb728; 
-      background-image: url(https://npr.brightspotcdn.com/dims4/default/66276ae/2147483647/strip/true/crop/800x420+0+40/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkuar%2Ffiles%2F201510%2FIMG_2200_0.jpg);
-      background-repeat: no-repeat;
+      background-image: url(../img/PMshot.jpeg);
       background-size: cover;
+      background-position: center;
       padding: 20px;
       display: flex;
       flex-direction:row;
       justify-content:flex-start;
       border-bottom:3px solid solid; 
       }
+
   
     header.primary .hgroup {
         width: 70%;
@@ -180,8 +181,9 @@ html {
   #colophon {
     text-align: center;
     background-color: #5c5b3d;
-    background-image: url(https://npr.brightspotcdn.com/dims4/default/66276ae/2147483647/strip/true/crop/800x420+0+40/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkuar%2Ffiles%2F201510%2FIMG_2200_0.jpg);
+    background-image: url(../img/topview.jpeg);
     background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding:20px;
     color:#007f61;
