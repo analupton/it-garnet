@@ -1,3 +1,5 @@
+
+
 function ClearForm() {
     document.getElementById("basecurrency").value = "";
     document.getElementById("convertcurrency").value = "";
@@ -7,8 +9,6 @@ function ClearForm() {
     document.getElementById("url").innerHTML = "";
     document.getElementById("url").href = "";
     document.getElementById("logo").src = "";
-    document.getElementById("StockValueTable").innerHTML = "";
-    document.getElementById("StockVolumeTable").innerHTML = "";
     
     /* Ugly Code to Erase Canvas */
     var canvas0 = document.getElementById("chartjs-0");
