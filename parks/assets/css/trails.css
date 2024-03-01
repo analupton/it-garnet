@@ -104,6 +104,7 @@ html {
       #blog {
         background-color:#fdb728;
         padding:20px 0;
+        text-align: center;
       }
     
       #blog  > h2{
