@@ -65,6 +65,7 @@ html {
     header.primary nav{
       width: 30%;
       margin: 0;
+
     }
   
     header.primary nav ul{
@@ -83,7 +84,7 @@ html {
       display:block;
       padding: 5px;
       border-radius: 10px 0; 
-      text-align: rigth;
+      text-align: center;
     }
   
     #content h2, #content h3, .widget h2 {
@@ -181,14 +182,16 @@ html {
 
   
   #colophon {
-    text-align: center;
-    background-color: #5c5b3d;
     background-image: url(../img/topview.jpeg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     padding:20px;
-    color:#007f61;
+    text-align: center;
+  }
+
+  #colophon a {
+    color:#ffffff
   }
   
   article.widget a{

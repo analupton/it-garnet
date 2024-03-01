@@ -83,7 +83,7 @@ html {
         display:block;
         padding: 5px;
         border-radius: 10px 0; 
-        text-align: rigth;
+        text-align: center;
       }
     
       #content h2, #content h3, .widget h2 {
@@ -157,7 +157,11 @@ html {
       padding:20px;
       color:#007f61;
     }
-  
+
+
+  #colophon a {
+    color:#ffffff
+  }
   
     article.post img{
       border: 5px solid white;

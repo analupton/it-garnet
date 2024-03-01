@@ -82,7 +82,7 @@ img{
         display:block;
         padding: 5px;
         border-radius: 10px 0; 
-        text-align: rigth;
+        text-align: center;
       }
     
       #content h2, #content h3, .widget h2 {
@@ -155,6 +155,11 @@ img{
       padding:20px;
       color:#007f61;
     }
+
+
+  #colophon a {
+    color:#ffffff
+  }
     
     article.widget a{
       color:#fdb728
