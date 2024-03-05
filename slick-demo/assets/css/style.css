@@ -18,7 +18,7 @@ img{
 .slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
+  color: rgb(255, 102, 227);
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
@@ -42,5 +42,5 @@ img{
     position:absolute;
     bottom: 50px;
     left: 250px;
-    color: aliceblue;
+    color: rgb(197, 150, 235);
 }
