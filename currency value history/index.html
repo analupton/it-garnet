@@ -17,6 +17,7 @@
             <label for="basecurrency" class="formlabel">Base Currency:</label>
             <select name="currency" id="basecurrency"
             data-rule-required="true"  data-msg-required="Base currency is Required">
+            <label id="basecurrencyerror" for="basecurrency" class="error"></label>
                 <option value="">Select an Currency...</option>
                 <option value="USD">US Dollar</option>
                 <option value="MXN">Mexican Pesos</option>
@@ -30,6 +31,7 @@
             <label for="convertcurrency" class="formlabel">Convert to Currency</label>
             <select name="convert" id="convertcurrency"
             data-rule-required="true"  data-msg-required="Convert currency is Required">
+            <label id="convertcurrencyerror" for="convertcurrency" class="error"></label>
                 <option value="">Select an Currency...</option>
                 <option value="USD">US Dollar</option>
                 <option value="MXN">Mexican Pesos</option>
