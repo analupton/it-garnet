@@ -94,6 +94,10 @@ img{
       section.container p{
         color: #ffffff;
       }
+
+      section.container li{
+        color: #ffffff;
+      }
   
       #logo {
         width: 200px;
