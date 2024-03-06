@@ -2,15 +2,15 @@ async function Results() {
     "use strict"
        
    
-   var form = $("#CVHform");
+   var form = $("#cvhForm");
     
     form.validate(); 
     
      if (form.valid()) {
 
         
-        var basecurrency = document.getElementById("basecurrency").value;
-        var convertcurrency = document.getElementById("convertcurrency").value;
+        var BaseCurrency = document.getElementById("BaseCurrency").value;
+        var ToCurrency = document.getElementById("ToCurrency").value;
         var FromDate = document.getElementById("FromDate").value;
         var ToDate = document.getElementById("ToDate").value;
 
@@ -18,7 +18,7 @@ async function Results() {
         
   
         var myURL2 = "https://api.polygon.io/v2/aggs/ticker/C:" 
-        + basecurrency + convertcurrency + "/range/1/day/" + FromDate + "/" + ToDate + "?adjusted=true&sort=asc&limit=32&apiKey=" + apiKey;
+        + BaseCurrency + ToCurrency + "/range/1/day/" + FromDate + "/" + ToDate + "?adjusted=true&sort=asc&limit=32&apiKey=" + apiKey;
            var msg2Object = await fetch(myURL2);
     
             if (msg2Object.status >= 200 && msg2Object.status <= 299) {            
@@ -66,10 +66,14 @@ async function Results() {
 
 function ClearForm() {
 
-    document.getElementById("basecurrency").value = "";
-    document.getElementById("convertcurrency").value = "";
+    document.getElementById("BaseCurrency").value = "";
+    document.getElementById("ToCurrency").value = "";
     document.getElementById("FromDate").value = "";
     document.getElementById("ToDate").value = "";
+    document.getElementById("ToDateError").innerHTML = "";
+    document.getElementById("FromDateError").innerHTML = ""
+    document.getElementById("BaseCurrency-error").innerHTML = "";
+    document.getElementById("ToCurrency-error").innerHTML = "";
     
     var canvas0 = document.getElementById("chartjs-0");
     var context0 = canvas0.getContext('2d');    
