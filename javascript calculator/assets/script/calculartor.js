@@ -30,4 +30,7 @@ function calculate() {
     document.getElementById("subtractOperator").checked = false;
     document.getElementById("multiplyOperator").checked = false;
     document.getElementById("divideOperator").checked = false;
+    document.getElementById("Operand1-error").innerHTML = "";
+    document.getElementById("Operand2-error").innerHTML = "";
+    document.getElementById("operatorsError").innerHTML = "";
   }

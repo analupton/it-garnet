@@ -44,7 +44,7 @@
         data-rule-required="true" data-msg-required="Operator is Required"/>/
         </label>
 
-        <label for="operators" class="error"></label>
+        <label for="operators" class="error" id="operatorsError"></label>
         <br><br>
 
         <label for="Operand2">Operand 2: </label>
@@ -59,7 +59,7 @@
         </div>
 
         <input type="submit" value="Calculate"  name="Calculate"  onclick="calculate();">
-        <input type="submit" value="Clear" name="Clear" onclick="clearForm();"novalidate >
+        <input type="button" value="Clear" name="Clear" onclick="clearForm();"novalidate >
 
       </fieldset>
       <br />

@@ -64,3 +64,9 @@ function myFunction() {
               }           
   
   }
+
+  function clearform() {
+    document.getElementById("picturedateateError").innerHTML = "";
+    document.getElementById("rovererror").innerHTML = "";
+
+  }

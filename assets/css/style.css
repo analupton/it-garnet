@@ -19,6 +19,11 @@ body{
     color: #e1a0b3;
 }
 
+.list{ 
+    margin-left: 570px;
+}
+
+
 /* -- psuedo selector ---*/
 
 a:link{

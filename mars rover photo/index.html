@@ -57,7 +57,7 @@
                 data-rule-required="true" data-msg-required="A Rover is Required"
                 onchange="myFunction()"/>Spirit
             </label>
-            <label for="rover" class="error" id="roverError"></label>
+            <label for="rover" class="error" id="rovererror"></label>
 
 
                   <br>
@@ -68,7 +68,8 @@
                   <br>
 
                   <input type="button" value="Search" id="Search" name="Search" onclick="GetPhotos();">
-                  <input type="submit" value="Clear" id="butnclear" onclick="clearform();" ><br> 
+                  <input type="button" value="Clear" id="clear" onclick="clearform();" formnovalidate>
+                  <br> 
                   <span id="numberofphotos"></span>
 
                   <hr>
@@ -154,7 +155,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-<script src="assets/js/marsrover.js"></script>
+<script src="assets/script/marsrover.js"></script>
 
 </body>
 </html>
