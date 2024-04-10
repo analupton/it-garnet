@@ -1,5 +1,9 @@
 body{
     background-color: #F4EEE4;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
 }
 
 img{
@@ -9,8 +13,7 @@ img{
 
 .container{
     margin:40px auto;
-    width:70vw;
-    max-width:700px;
+    width: 1114px;
 }
 
 /* Customize Previous/Next/Dots/Autoplay */
@@ -45,7 +48,7 @@ p {
     text-wrap: wrap;
     padding-left: 350px;
     padding-right: 350px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h1 {
@@ -53,5 +56,6 @@ h1 {
     padding-left: 300px;
     padding-right: 300px;
     text-align: left;
-    font-size: 55px;
+    font-size: 96px;
+    font-weight: 400;
 }
